@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>Project 77</title>
+    </head>
+    <body>
+        <marquee onmouseover = "this.stop()" onmouseout="this.start()">
+            Welcome to this console project! Please feel free to remix and use!
+        </marquee>
+        <h2>
+          Welcome to the learning facility!
+        </h2>
+        <p>
+            You will learn about numbers and your name in lowercase and uppercase. Just open your console and get started by right clicking the mouse and pressing inspect. Then open the console tab on the top. 
+        </p>
+        <p id="number"></p>
+    </body>
+    <script>
+        var first_name = "Harry";
+        console.log(first_name);
+
+        var second_name = "Potter";
+        console.log(second_name);
+
+        var full_name = first_name.concat(" " + second_name);
+        console.log(full_name);
+
+        var short_name1 = "harry";
+      var short_name_1_uppercase = short_name1.toUpperCase();
+      console.log(short_name_1_uppercase);
+
+      var short_name2 = "HARRY";
+      var short_name2_lowercase = short_name2.toLowerCase();
+      console.log(short_name2_lowercase);
+
+        var numbers = 0;
+        for (i = 0; i < 101; i++){
+         console.log([i]);
+        }
+
+        var one = 4;
+        var two = 11;
+
+        var power = Math.pow(a, b);
+        console.log(power);
+
+        var add = Math.add(one, two);
+        console.log(add);
+
+        var subtract = Math.subtract(b, a);
+        console.log(subtract);
+
+        var sqrt = Math.sqrt(10);
+        console.log(sqrt);
+    </script>
+</html>
